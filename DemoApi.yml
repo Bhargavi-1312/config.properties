@@ -1,1 +1,15 @@
+server:
+  port:8094
 
+spring:
+  boot:
+    admin:
+      client:
+        url:http://localhost:8087
+management:
+  endpoints:
+    web:
+      exposure:
+        include:"*"
+message:"This is a demo message from the github"
+  
